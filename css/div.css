@@ -1,0 +1,41 @@
+.div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: auto;
+    padding: 1vh;
+    text-align: center;
+    border: 1px dotted white;
+}
+
+.notVisible {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+
+a:visited {
+    color: white;
+    
+}
+
+a:link {
+    color: white;
+}
+
+a {
+    text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+    transition: text-decoration-color 300ms;
+}
+
+a:hover {
+    text-decoration-color: rgb(255, 255, 255);
+
+}

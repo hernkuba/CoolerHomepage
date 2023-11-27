@@ -1,15 +1,17 @@
 .section {
     display: grid;
     place-items: center;
-    margin: 25vh 0;
+    margin: 15% 0;
     font-size: 125%;
+    overflow: hidden;
+    max-width: 80%;
 }
 
 .hidden {
 opacity: 0;
 filter: blur(5px);
 transform: translateX(-100%);
-transition: all 1s;
+transition: all 1.15s;
 }
 
 .show {
