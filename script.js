@@ -16,9 +16,17 @@
   const icon = document.querySelector('.icon')
   const navItems = document.querySelectorAll('.notVisible')
   icon.onclick = navBarShow
+  let zmienna = 0;
   function navBarShow () {
+    if (zmienna == 0) {
+      icon.style.transform = 'rotate(180deg)'
+      zmienna = 1
+    } else if (zmienna == 1) {
+      icon.style.transform = 'rotate(0deg)'
+      zmienna = 0
+    }
     navItems.forEach(item => {
-        item.classList.toggle('visible')
+      item.classList.toggle('visible')
     })
   }
 }
