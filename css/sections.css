@@ -1,7 +1,7 @@
 .section {
     display: grid;
     place-items: center;
-    margin: 15% 0;
+    padding: 15% 0;
     font-size: 125%;
     overflow: hidden;
     max-width: 80%;
