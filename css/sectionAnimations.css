@@ -1,0 +1,34 @@
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1.15s;
+    transition-delay: 700ms;
+  }
+  
+  @media (prefers-reduced-motion) {
+    .hidden, .slideFromLeft {
+      transition: none;
+    }
+  }
+  
+  .show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+  }
+
+  .slideFromLeft {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(100%);
+    transition: all 1.15s;
+    transition-delay: 700ms;
+    overflow: hidden;
+  }
+
+  .showFromLeft {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(-5%);
+  }

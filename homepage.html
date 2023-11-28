@@ -7,12 +7,14 @@
     <title>Homepage</title>
 
     <!-- Font -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    
 
     <!-- script -->
     <script defer src="script.js"></script>
@@ -31,40 +33,42 @@
     <link rel="stylesheet" href="./css/sections.css" />
     <link rel="stylesheet" href="./css/div.css" />
     <link rel="stylesheet" href="./css/a.css" />
+    <link rel="stylesheet" href="./css/sectionAnimations.css" />
   </head>
   <body>
     <div class="div">
       <div class="icon">| | |</div>
-      <span class="notVisible"><a href="#about">About me</a></span>
-      <span class="notVisible"><a href="#hobby">Hobby</a></span>
-      <span class="notVisible"><a href="#work">Work</a></span>
-      <span class="notVisible"><a href="#contact">Contact</a></span>
+      <span class="notVisible"><a href="#about" class="a">About me</a></span>
+      <span class="notVisible"><a href="#hobby" class="a">Hobby</a></span>
+      <span class="notVisible"><a href="#work" class="a">Work</a></span>
+      <span class="notVisible"><a href="#contact" class="a">Contact</a></span>
     </div>
 
     <section id="about" class="hidden section">
       <h1>Hi I am Jacob!</h1>
+      <a href="https://github.com/hernkuba" target="_blank">
+        <img src="./assets/icon/github.svg" alt="icon">
+      </a>
     </section>
 
     <section class="hidden section">
       <h2>I am still learning but...</h2>
     </section>
-    <section class="section section__right">
-      <div class="section__right--div">
-        <div>
-          <h2>Here is my Task List project, I am still working on it.</h2>
-          <span class="section__right--span"
-            >Don't bother, click on a project</span
-          > 
-        </div>
-        <div class="section__right--imgBack">
-          <a href="https://hernkuba.github.io/GreatList/" target="_blank">
-            <img
-              src="./assets/img/Tasklist.png"
-              alt="Task List project"
-              class="section__right--img"
-            />
-          </a>
-        </div>
+    <section class="section section__right slideFromLeft">
+      <div>
+        <h2>Here is my TaskList project, I am still working on it.</h2>
+        <span class="section__right--span"
+          >Don't bother, click on a project</span
+        >
+      </div>
+      <div class="section__right--imgBack">
+        <a href="https://hernkuba.github.io/GreatList/" target="_blank">
+          <img
+            src="./assets/img/Tasklist.png"
+            alt="Task List project"
+            class="section__right--img"
+          />
+        </a>
       </div>
     </section>
     <section class="hidden section">

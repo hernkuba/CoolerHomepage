@@ -1,18 +1,18 @@
-a:visited {
+.a:visited {
     color: white;
     
 }
 
-a:link {
+.a:link {
     color: white;
 }
 
-a {
+.a {
     text-decoration: underline 0.15em rgba(0, 0, 0, 0);
     transition: text-decoration-color 300ms;
 }
 
-a:hover {
+.a:hover {
     text-decoration-color: rgb(255, 255, 255);
 
 }
