@@ -18,6 +18,15 @@
 
 .section__right--img {
   flex-basis: 80%;
+  
+}
+
+.section__right--imgBack {
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px,
+    rgba(255, 255, 255, 0.3) 0px 30px 60px -30px,
+    rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
+  padding: 20px;
+  border-radius: 5px;
 }
 
 @media (max-width: 575.98px) {
