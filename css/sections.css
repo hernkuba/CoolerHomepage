@@ -3,7 +3,7 @@
   place-items: center;
   padding: 0vh 0 70vh;
   font-size: 175%;
-  overflow: hidden;
+  overflow-x: hidden;
   max-width: 90%;
 }
 
