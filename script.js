@@ -1,3 +1,9 @@
+// great idea game
+//coin flip whatever user pick it will always be i won
+//for example If head hire if tails dont hire
+//Reviewer checks head if he lose the he hires me
+// ofc output is tails
+
 {
   const observer = new IntersectionObserver(visibleToUser => {
     visibleToUser.forEach(isVisible => {
