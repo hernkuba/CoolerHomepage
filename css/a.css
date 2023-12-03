@@ -14,3 +14,8 @@
 .a:hover {
     text-decoration-color: rgb(255, 255, 255);
 }
+
+.a--smaller {
+    font-size: small;
+    opacity: 0.65;
+}

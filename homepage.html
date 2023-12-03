@@ -44,22 +44,36 @@
     <div class="div">
       <div class="icon">| | |</div>
       <span class="notVisible"><a href="#about" class="a">About me</a></span>
-      <span class="notVisible"><a href="#hobby" class="a">Hobby</a></span>
-      <span class="notVisible"><a href="#work" class="a">Work</a></span>
+      <span class="notVisible"
+        ><a href="#project" class="a">First project</a></span
+      >
       <span class="notVisible"><a href="#contact" class="a">Contact</a></span>
     </div>
 
     <section id="about" class="hidden section">
       <h1>Hi I am Jacob!</h1>
-      <a href="https://github.com/hernkuba" target="_blank">
-        <img src="./assets/icon/github.svg" alt="icon" />
-      </a>
+      <div class="section__iconLink">
+        <a href="https://github.com/hernkuba" target="_blank">
+          <img
+            src="./assets/icon/github.svg"
+            alt="github"
+            class="section__iconLink--icon"
+          />
+        </a>
+        <a href="https://www.linkedin.com/in/jakub-szewc-6b5826269/">
+          <img
+            src="./assets/icon/linkedin.svg"
+            alt="linkedid"
+            class="section__iconLink--icon"
+          />
+        </a>
+      </div>
     </section>
 
     <section class="hidden section">
       <h2>I am still learning but...</h2>
     </section>
-    <section class="section section__right slideFromLeft">
+    <section id="project" class="section section__right slideFromLeft">
       <div>
         <h2>Here is my TaskList project, I am still working on it.</h2>
         <span class="section__right--span"
@@ -76,26 +90,19 @@
         </a>
       </div>
     </section>
-    <section class="hidden section">
-      <h2>I can see that putting work in, works 🔥</h2>
-    </section>
 
-    <section id="work" class="hidden section">
-      <h2>In work</h2>
-      <span>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-        obcaecati soluta cum. Voluptatum quibusdam neque vero eius voluptates
-        deserunt est.
-      </span>
-    </section>
-
-    <section id="contact" class="hidden section">
-      <h2>In work</h2>
-      <span>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-        obcaecati soluta cum. Voluptatum quibusdam neque vero eius voluptates
-        deserunt est. XDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
-      </span>
+    <section id="contact" class="hidden section section__last">
+      <h2>Contact me!📲</h2>
+      <footer class="section__last--footer">
+        <div>
+          <h3></h3>
+        </div>
+        <div>
+          <a href="#about" class="a a--smaller">About me</a>
+          <a href="#project" class="a a--smaller">Project</a>
+          <a href="#contact" class="a a--smaller">Contact</a>
+        </div>
+      </footer>
     </section>
   </body>
 </html>
