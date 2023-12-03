@@ -7,17 +7,8 @@
   max-width: 90%;
 }
 
-.section:nth-child(2) {
-  padding: 30vh 0 70vh;
-}
-
-.section__last {
-  padding: 0;
-  overflow: hidden;
-}
-
 .section__last--footer {
-padding: 35vh 0 5vh;
+  padding: 35vh 0 4vh;
 }
 
 .section__right {
@@ -38,21 +29,20 @@ padding: 35vh 0 5vh;
   border-radius: 5px;
 }
 
-
 @media (max-width: 575.98px) {
-  .section__right--div {
+  .section__right {
     display: flex;
     flex-direction: column;
     width: 80%;
     text-align: left;
   }
+
   .section__right--img {
     content: url("../assets/img/Tasklist_mediaPhone.png");
     width: auto;
     max-width: 350px;
   }
   .section__right--imgBack {
-    min-width: 350px;
     box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px,
       rgba(255, 255, 255, 0.3) 0px 30px 60px -30px,
       rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
@@ -67,4 +57,14 @@ padding: 35vh 0 5vh;
 
 .section__iconLink--icon {
   padding: 5px;
+}
+
+.section__footer--links {
+  display: flex;
+  padding: 5px;
+}
+
+.section__last {
+  padding: 0;
+  overflow: hidden;
 }

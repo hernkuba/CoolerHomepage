@@ -18,4 +18,5 @@
 .a--smaller {
     font-size: small;
     opacity: 0.65;
+    padding: 5px;
 }
