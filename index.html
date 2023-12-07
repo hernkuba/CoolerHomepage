@@ -41,7 +41,7 @@
     <link rel="stylesheet" href="./css/sectionAnimations.css" />
   </head>
   <body>
-    <div class="div">
+    <div class="div scrollNav">
       <div class="icon">| | |</div>
       <span class="notVisible"><a href="#about" class="a">About me</a></span>
       <span class="notVisible"
@@ -51,7 +51,7 @@
     </div>
 
     <section id="about" class="hidden section">
-      <h1>Hi I am Jacob!</h1>
+      <h1><span class="coolHover">Hi I am Jacob!</span></h1>
       <div class="section__iconLink">
         <a href="https://github.com/hernkuba" target="_blank">
           <img
@@ -60,10 +60,20 @@
             class="section__iconLink--icon"
           />
         </a>
-        <a href="https://www.linkedin.com/in/jakub-szewc-6b5826269/">
+        <a
+          href="https://www.linkedin.com/in/jakub-szewc-6b5826269/"
+          target="_blank"
+        >
           <img
             src="./assets/icon/linkedin.svg"
             alt="linkedid"
+            class="section__iconLink--icon"
+          />
+        </a>
+        <a href="mailto:grindhard2023.business@gmail.com" target="_blank">
+          <img
+            src="./assets/icon/gmai.svg"
+            alt="gmail"
             class="section__iconLink--icon"
           />
         </a>
@@ -71,31 +81,51 @@
     </section>
 
     <section class="hidden section">
-      <h2>I am still learning but...</h2>
+      <h2><span class="coolHover">I am still learning but...</span></h2>
     </section>
     <section id="project" class="section section__right slideFromLeft">
-      <div>
-        <h2>Here is my TaskList project, I am still working on it.</h2>
-        <span class="section__right--span"
+      <div class="section__left">
+        <h2>
+          <span class="coolHover"
+            >Here is my TaskList project, I am still working on it.</span
+          >
+        </h2>
+        <span class="section__right--span coolHover"
           >Don't bother, click on a project
         </span>
       </div>
       <div class="section__right--imgBack">
         <a href="https://hernkuba.github.io/GreatList/" target="_blank">
-          <img
+          <picture>
+            
+            <source
+            srcset="./assets/img/Tasklist_mediaPhone.png"
+            media="(max-width: 575.98px)"
+            >
+            <source
+            srcset="./assets/img/Tasklist_medium.png"
+            media="(min-width: 575.99px)"
+            >
+            <source
+            srcset="./assets/img/Tasklist.png"
+            media="(min-width: 1500px)"
+            >
+            <img
             src="./assets/img/Tasklist.png"
             alt="Task List project"
             class="section__right--img"
           />
+          </picture>
+          
         </a>
       </div>
     </section>
 
     <section id="contact" class="hidden section section__last">
-      <h2>Contact me!📲</h2>
+      <h2><span class="coolHover">Contact me!📲</span></h2>
       <footer class="section section__last--footer">
         <div>
-          <h3>Lorem</h3>
+          <h3><span class="coolHover">Where you can find me!</span></h3>
         </div>
         <div class="section__iconLink">
           <a href="https://github.com/hernkuba" target="_blank">
@@ -105,10 +135,20 @@
               class="section__iconLink--icon"
             />
           </a>
-          <a href="https://www.linkedin.com/in/jakub-szewc-6b5826269/">
+          <a
+            href="https://www.linkedin.com/in/jakub-szewc-6b5826269/"
+            target="_blank"
+          >
             <img
               src="./assets/icon/linkedin.svg"
               alt="linkedid"
+              class="section__iconLink--icon"
+            />
+          </a>
+          <a href="mailto:grindhard2023.business@gmail.com" target="_blank">
+            <img
+              src="./assets/icon/gmai.svg"
+              alt="gmail"
               class="section__iconLink--icon"
             />
           </a>

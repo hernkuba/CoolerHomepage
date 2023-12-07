@@ -1,3 +1,10 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  scroll-padding: 
+  var(--scroll-padding, 5rem);
+}
+
 body {
   display: grid;
   place-items: center;
@@ -8,11 +15,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-html {
-  scroll-behavior: smooth;
-  overflow-x: hidden;
-}
-
 a {
   all: unset;
 }
@@ -20,9 +22,10 @@ a {
 h1 {
   text-align: center;
 }
-
-
-
-
-
-
+h2 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  font-size: medium;
+}

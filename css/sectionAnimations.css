@@ -32,3 +32,16 @@
     filter: blur(0);
     transform: translateX(-5%);
   }
+
+  .coolHover {
+    background-image: 
+    linear-gradient(90deg, white, gray);
+    background-size: 0% 3px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    transition:  300ms ease;
+    font-size: 100%;
+  }
+  .coolHover:hover {
+    background-size: 100% 3px;
+  }

@@ -5,6 +5,9 @@
     width: auto;
     padding: 1vh;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 .notVisible {

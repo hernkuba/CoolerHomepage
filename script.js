@@ -54,6 +54,13 @@ const init = () => {
       })
     }
   }
+
+  const scroll = document.querySelector('.scrollNav')
+  const scrollHeight = scroll.offsetHeight;
+  document.documentElement.style.setProperty(
+    '--scroll-padding',
+    scrollHeight + 'px'
+  )
   navBarAnimation()
   slideFromLeft()
   slideFromRight()
