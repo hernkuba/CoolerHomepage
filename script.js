@@ -43,7 +43,7 @@ const init = () => {
     let zmienna = 0
     function navBarShow () {
       if (zmienna == 0) {
-        icon.style.transform = 'rotate(90deg)'
+        icon.style.transform = 'rotate(180deg)'
         zmienna = 1
       } else if (zmienna == 1) {
         icon.style.transform = 'rotate(0deg)'
