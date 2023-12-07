@@ -84,3 +84,22 @@
   padding: 0;
   overflow: hidden;
 }
+
+.footer__flex {
+  display: flex;
+  flex-direction: column;
+}
+.footer__flex--li {
+  white-space: nowrap;
+  font-size: 55%;
+  line-height: 2.5;
+  list-style: none;
+}
+
+@media (min-width: 600px) {
+  .footer__flex--li {
+    font-size: 55%;
+    line-height: 2.5;
+    list-style: none;
+  }
+}
